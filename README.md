@@ -19,12 +19,12 @@ background: linear-gradient(to right, #f0acf7, #acf7f0, #f7f0ac); /* W3C, IE 10+
 	
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:10;
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    top: 0;
+    top:0;
     width: 100%;
 }
 
@@ -36,7 +36,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 17px 10px;
     text-decoration: none;
 }
 
@@ -63,7 +63,8 @@ li a:hover:not(.active) {
 <h1>表白墙</h1>
 
 <h2><a href=" https://user.qzone.qq.com/2387023536?_t_=0.3025206699592291">点这跳转</a></h2>
-<h2>要定制表白的爱心网站的可以找我制作作者qq：2239860745</h2>
+<p>上面的不是作者本人的网站和qq</p>
+	<h2>要定制表白的爱心网站的可以找我制作作者qq：2239860745</h2>
 
 
 
