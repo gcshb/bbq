@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+
+
 <head>
 <meta charset="utf-8">
 <title>古田初中表白墙</title>
@@ -70,4 +70,4 @@ li a:hover:not(.active) {
 </div>
 
 </body>
-</html>
+
