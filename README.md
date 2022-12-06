@@ -52,11 +52,11 @@ li a:hover:not(.active) {
 <body>
 
 <ul>
-  <li><a href="gcshb.github.io/gtxy">主页</a></li>
+  <li><a href="https://gcshb.github.io/gtxy">主页</a></li>
   <li><a href="https://xingye.me/game/index.php">娱乐</a></li>
   <li><a href="http://m.1010jiajiao.com/">作业答案</a></li>
   <li><a href="https://www.zxx.edu.cn/">网课</a></li>
-<li><a class="active" href="gcshb.github.io/bbq">表白墙</a></li>
+<li><a class="active" href="https://gcshb.github.io/bbq">表白墙</a></li>
 </ul>
 
 <div style="padding:20px;margin-top:30px;height:150px;">
