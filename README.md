@@ -36,7 +36,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 17px 10px;
+    padding: 27px 10px;
     text-decoration: none;
 }
 
