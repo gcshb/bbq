@@ -1,79 +1,73 @@
-
-
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<title>古田初中表白墙</title>
-<style>
-  *{
-         
-         margin:0;
-         padding:0;
-         }
-body {margin:0;
-	background: #f7f0ac;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f0acf7, #acf7f0, #f7f0ac);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f0acf7, #acf7f0, #f7f0ac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-	h2,h1,p{
-	color: white;
-	
-	}
-	
-	
-	
-	
-ul {
-    list-style-type: none;
-    margin:0;
-    padding:10;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top:0;
-    width: 100%;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表白墙初代</title>
+  <style>
+	 
+    body {
+      margin:0px;
+		background: #f4c4f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-li {
-    float: left;
-}
+		
+    }
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    li {
+      list-style: none;
+      width: 500px;
+      height: 300px;
+      margin-top: 5px;
+    background: #00c3ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-</style>
+	  }
+    textarea{
+      width: 200px;
+      height: 80px;
+    } 
+  </style>
 </head>
 <body>
-
-<ul>
-  <li><a href="https://gcshb.github.io/gtxy">主页</a></li>
-  <li><a href="https://xingye.me/game/index.php">娱乐</a></li>
-  <li><a href="http://m.1010jiajiao.com/">作业答案</a></li>
-  <li><a href="https://www.zxx.edu.cn/">网课</a></li>
-<li><a class="active" href="https://gcshb.github.io/bbq">表白墙</a></li>
-</ul>
-
-<div style="padding:20px;margin-top:30px;height:150px;">
+	<div style="padding:20px;margin-top:0px;height:210px;">
 <h1>表白墙</h1>
-<h2><a href=" https://user.qzone.qq.com/2387023536?_t_=0.3025206699592291">点这跳转</a></h2>
-<p>上面的不是作者本人的网站和qq</p> 
-<h2>要定制表白的爱心网站的可以找我制作作者qq：2239860745</h2>
+
+<h2>要制作表白的爱心网站的可以找我制作作者qq：2239860745</h2>
 <p>想要在本网站表白某某或吐槽某某可以加作者QQ，作者会将你的留言上传在本网站，可以匿名哦</p>
 
 
 </div>
 
+	<textarea name="" id=""></textarea>
+  <button>发布</button>
+  <ul>
+     
+  </ul>
+  <script>
+    //获取元素
+    var btn = document.querySelector('button');
+    var text = document.querySelector('textarea');
+    var ul = document.querySelector('ul');
+    //注册时间
+    btn.onclick = function(){
+      if(text.value == ''){
+        alert("您没有输入内容。")
+        return false;
+      }else{
+        var li = document.createElement('li');
+        li.innerHTML = text.value;
+        //ul.appendChild(li);
+        ul.insertBefore(li,ul.children[0])
+      }
+      text.value='';
+       
+    }
+  </script>
 </body>
-
- 
+</html>
